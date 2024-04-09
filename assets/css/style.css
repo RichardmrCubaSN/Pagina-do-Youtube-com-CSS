@@ -1,0 +1,165 @@
+/* Menu */
+.menu {
+    background: #c5c5c5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+.menu-left { 
+    display: flex;
+    justify-content: center;    
+    width: 148px;
+    height: 24px;
+}
+
+.menu-left-img {
+    margin-left: 32px;
+}
+
+.menu-center {
+    display: inline-flex;
+}
+
+.menu-center input {
+    width: 404px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+}
+
+.menu-center button {
+    width: 57px;
+    height: 40px;
+}
+
+.menu-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.menu-right-img { 
+    max-width: 34px;
+    max-height: 34px;
+    border-radius: 50%;
+}
+
+/* watching*/
+/*left*/
+
+.watching{
+    background: #F9F9F9;
+    width: 100%;
+    padding-top: 28px;    
+    display: flex;    
+}
+
+.watching-video {
+    margin-left: 75px;
+}
+.watching-video-player-title {
+    padding: 16px 0;
+}
+
+.watching-video-channel-infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 42px;
+}
+
+.watching-video-channel-infos-channel {
+    display: flex;
+    flex-direction: row;
+}
+
+.watching-video-channel-infos-channel .channel-details {
+    margin-left: 12px;
+}
+
+.watching-video-channel-infos-channel .channel-details h3{
+    font-weight: 700;
+}
+
+.watching-video-channel-infos .subscribe-channel button {
+    width: 159px;
+    height: 40px;
+    border: transparent;
+    border-radius: 10px;
+    background: #C00;
+
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.watching-video-channel-infos .like,
+.watching-video-channel-infos .dislike,
+.watching-video-channel-infos .share,
+.watching-video-channel-infos .download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.watching-video-channel-infos .like p,
+.watching-video-channel-infos .dislike p,
+.watching-video-channel-infos .share p,
+.watching-video-channel-infos .download p {
+    margin-left: 8px;
+}
+
+.watching-video .views {
+    width: 391px;
+    height: 16px;
+    padding: 16px 0;
+}
+
+.watching-video .views p {
+    color: #000;
+    font-weight: 700;
+}
+
+.watching-video .details {
+    padding-top: 16px;
+    width: 510px;
+}
+
+.watching-video .details p {
+    color: #515151;
+    font-weight: 400;
+}
+
+/* watching*/
+/*right*/
+
+.watching .playlist-video {
+    margin-left: 25px;
+}
+
+.watching .playlist-video .thumbnail {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.watching .playlist-video .thumbnail .thumbnail-infos {
+    width: 196px;
+    max-height: 90px;
+    margin-left: 16px;
+}
+
+.watching .playlist-video .thumbnail .thumbnail-infos .thumbnail-channel,
+.watching .playlist-video .thumbnail .thumbnail-infos .thumbnail-views {
+    padding-top: 7px;
+}
+
+.watching .playlist-video .thumbnail .thumbnail-infos .thumbnail-channel p,
+.watching .playlist-video .thumbnail .thumbnail-infos .thumbnail-views p {
+    font-size: 12px;
+}

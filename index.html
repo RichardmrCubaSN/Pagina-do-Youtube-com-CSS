@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/icon-youtube.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio CSS Clonando a Página do Youtube</title>   
+</head>
+<body>
+
+    <header class="menu">
+        <div class="menu-left">
+            <img src="/assets/images/left-menu.svg" alt="Menu de Youtube">          
+            <img class="menu-left-img" src="/assets/images/left-youtube.svg" alt="logo de Youtube">                              
+        </div>
+        <div class="menu-center">
+            <input type="text">
+            <button>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                        stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M21 21L16.65 16.65" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>                      
+        </div>
+        <div class="menu-right">           
+            <img src="assets/images/right-video.png" alt="Video camara do usuario">
+            <img src="assets/images/right-bell.png"  alt="bell do usuario">          
+            <img class="menu-right-img" src="assets/images/right-usuario.fw.png" alt="Foto perfil do usuario">                                         
+        </div>
+    </header>
+
+    <main class="watching">
+
+        <div class="watching-video">
+
+            <div class="watching-video-player">
+                <iframe width="952px" height="537px" src="https://www.youtube.com/embed/1sq1FmwXh9Q?si=_U-in9cGCH3RTD_g"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="watching-video-player-title">
+                <h1>Os 10 maiores mitos sobre os DEVs</h1>
+            </div>
+            
+            <div class="watching-video-channel-infos">
+                <div class="watching-video-channel-infos-channel">
+                    <div class="channel-avatar">
+                        <img src="/assets/images/channel-dio.png" alt="Canal DIO (Digital Innovation One)">
+                    </div>
+            
+                    <div class="channel-details">
+                        <h3>DIO</h3>
+                        <p>83,3 mil inscritos</p>
+                    </div>
+                </div>
+            
+                <div class="subscribe-channel">
+                    <button>inscreva-se</button>
+                </div>
+            
+                <div class="like">
+                    <img src="/assets/images/like-img.png" alt="Like imagen">
+                    <p>2 mil</p>
+                </div>
+
+                <div class="dislike">
+                    <img src="/assets/images/dislike-img.png" alt="Dislike imagen">
+                    <p>Não gostei</p> 
+                </div>
+                    
+                <div class="share">
+                    <img src="/assets/images/share-img.png" alt="share imagen">
+                    <p>Compartilhar</p>
+                </div>
+
+                <div class="download">
+                    <img src="/assets/images/download-img.png" alt="share imagen">                    
+                    <p>Download</p>
+                </div>
+            </div>
+
+            <div class="views">
+                <p>535 visualizações  14 de ago. de 2023</p>
+            </div>
+
+            <div class="details">
+                <p>
+                Descubra a verdade por trás do mundo da programação! 
+                Hoje, nós desvendamos 10 mitos (e algumas verdades) sobre desenvolvedores.
+                Será que são todos hackers isolados ou passam o dia inteiro codando? 
+                Venha conhecer nossa realidade, equilibrando bugs e inovação.
+                </p>
+            </div>
+
+        </div>
+            
+        <div class="playlist-video">
+
+            <div class="thumbnail">
+                <div class="thumbnail-video">
+                        <img src="/assets/images/thumbnails/thumb-01.png" alt="Vídeo Aula DIO">
+                </div>
+                <div class="thumbnail-infos">
+                    <h2>Geração Tech Unimed - BH - Ciência de Dados</h2>
+                    <div class="thumbnail-channel">
+                        <p>DigitalInnovationOne</p>
+                    </div>
+                    <div class="thumbnail-views">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="thumbnail">
+                <div class="thumbnail-video">
+                    <img src="/assets/images/thumbnails/thumb-02.png" alt="Vídeo Aula DIO">
+                </div>
+                <div class="thumbnail-infos">
+                    <h2>Scrum Talks</h2>
+                    <div class="thumbnail-channel">
+                        <p>DigitalInnovationOne</p>
+                    </div>
+                    <div class="thumbnail-views">
+                        <p>1,6 mil visualizações</p>
+                        <p>Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnail">
+                <div class="thumbnail-video">
+                    <img src="/assets/images/thumbnails/thumb-03.png" alt="Vídeo Aula DIO">
+                </div>
+                <div class="thumbnail-infos">
+                    <h2>Machine Learning Avançado - Fast Track 1</h2>
+                    <div class="thumbnail-channel">
+                        <p>DigitalInnovationOne</p>
+                    </div>
+                    <div class="thumbnail-views">
+                        <p>1,7 mil visualizações</p>
+                        <p>Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnail">
+                <div class="thumbnail-video">
+                    <img src="/assets/images/thumbnails/thumb-04.png" alt="Vídeo Aula DIO">
+                </div>
+                <div class="thumbnail-infos">
+                    <h2>Project Planning</h2>
+                    <div class="thumbnail-channel">
+                        <p>DigitalInnovationOne</p>
+                    </div>
+                    <div class="thumbnail-views">
+                        <p>971 visualizações</p>
+                        <p>Transmitido há 5 dias</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thumbnail">
+                <div class="thumbnail-video">
+                    <img src="/assets/images/thumbnails/thumb-05.png" alt="Vídeo Aula DIO">
+                </div>
+                <div class="thumbnail-infos">
+                    <h2>Como Aprender Phyton do Zero</h2>
+                    <div class="thumbnail-channel">
+                        <p>DigitalInnovationOne</p>
+                    </div>
+                    <div class="thumbnail-views">
+                        <p>2,9 mil visualizações</p>
+                        <p>Transmitido há 7 dias</p>
+                    </div>
+                </div>
+            </div>
+         
+        </div>  
+   
+    </main>
+    
+</body>
+</html>
